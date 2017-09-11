@@ -13,6 +13,7 @@ app.conf.update(
 # Use synchronous tasks in local dev
 if settings.DEBUG:
   app.conf.update(task_always_eager=True)
+app.conf.update(task_always_eager=True)
 app.autodiscover_tasks(lambda: settings.INSTALLED_APPS, related_name='celery')
 
 
