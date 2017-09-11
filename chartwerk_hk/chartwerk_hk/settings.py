@@ -24,7 +24,7 @@ PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 SECRET_KEY = "k@i2yungc3$k%-_=gdrwo#-d8x#*60s)*4iq+d%%=qj29+2xhb"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 # Application definition
 
@@ -150,3 +150,19 @@ CHARTWERK_DOMAIN = 'https://warm-atoll-64222.herokuapp.com'
 CHARTWERK_AWS_BUCKET = 'chartwerk.ieeespectrum.joshuarrr'
 CHARTWERK_AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
 CHARTWERK_AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'console': {
+            'class': 'logging.StreamHandler',
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['console'],
+            'level': os.getenv('DJANGO_LOG_LEVEL', 'ERROR'),
+        },
+    },
+}
