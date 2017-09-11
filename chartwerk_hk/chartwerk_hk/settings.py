@@ -39,6 +39,9 @@ INSTALLED_APPS = [
     # http://whitenoise.evans.io/en/stable/django.html#using-whitenoise-in-development
     'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
+    'django.contrib.humanize',
+    'rest_framework',
+    'chartwerk',
 ]
 
 MIDDLEWARE = [
@@ -77,10 +80,21 @@ WSGI_APPLICATION = 'chartwerk_hk.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'ieee_spectrum_chartwerk',
+        'USER': 'josh',
+        'PASSWORD': 'Ch@0sPGCr3@3t3s!',
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
 
@@ -131,3 +145,8 @@ STATICFILES_DIRS = [
 # Simplified static file serving.
 # https://warehouse.python.org/project/whitenoise/
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+CHARTWERK_DOMAIN = 'https://warm-atoll-64222.herokuapp.com'
+CHARTWERK_AWS_BUCKET = 'chartwerk.ieeespectrum.joshuarrr'
+CHARTWERK_AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+CHARTWERK_AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
