@@ -146,7 +146,7 @@ STATICFILES_DIRS = [
 # https://warehouse.python.org/project/whitenoise/
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-CHARTWERK_DOMAIN = 'https://warm-atoll-64222.herokuapp.com'
+CHARTWERK_DOMAIN = 'https://ieee-spectrum-chartwerk.herokuapp.com'
 CHARTWERK_AWS_BUCKET = 'chartwerk.ieeespectrum.joshuarrr'
 CHARTWERK_AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
 CHARTWERK_AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
