@@ -1,0 +1,49 @@
+/* CSS Reset */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/* All chart styles should be explicitly set in editor. */
+#chartwerk {
+  /* RESET STYLES */
+  /* HTML5 display-role reset for older browsers */
+  background-color: white;
+}
+#chartwerk html, #chartwerk body, #chartwerk div, #chartwerk span, #chartwerk applet, #chartwerk object, #chartwerk iframe,
+#chartwerk h1, #chartwerk h2, #chartwerk h3, #chartwerk h4, #chartwerk h5, #chartwerk h6, #chartwerk p, #chartwerk blockquote, #chartwerk pre, #chartwerk a,
+#chartwerk abbr, #chartwerk acronym, #chartwerk address, #chartwerk big, #chartwerk cite, #chartwerk code, #chartwerk del, #chartwerk dfn,
+#chartwerk em, #chartwerk img, #chartwerk ins, #chartwerk kbd, #chartwerk q, #chartwerk s, #chartwerk samp, #chartwerk small, #chartwerk strike,
+#chartwerk strong, #chartwerk sub, #chartwerk sup, #chartwerk tt, #chartwerk var, #chartwerk b, #chartwerk u, #chartwerk i, #chartwerk center, #chartwerk dl, #chartwerk dt,
+#chartwerk dd, #chartwerk ol, #chartwerk ul, #chartwerk li, #chartwerk fieldset, #chartwerk form, #chartwerk label, #chartwerk legend, #chartwerk table,
+#chartwerk caption, #chartwerk tbody, #chartwerk tfoot, #chartwerk thead, #chartwerk tr, #chartwerk th, #chartwerk td, #chartwerk article, #chartwerk aside,
+#chartwerk canvas, #chartwerk details, #chartwerk embed, #chartwerk figure, #chartwerk figcaption, #chartwerk footer, #chartwerk header,
+#chartwerk hgroup, #chartwerk menu, #chartwerk nav, #chartwerk output, #chartwerk ruby, #chartwerk section, #chartwerk summary, #chartwerk time, #chartwerk mark,
+#chartwerk audio, #chartwerk video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+#chartwerk article, #chartwerk aside, #chartwerk details, #chartwerk figcaption, #chartwerk figure, #chartwerk footer, #chartwerk header,
+#chartwerk hgroup, #chartwerk menu, #chartwerk nav, #chartwerk section {
+  display: block;
+}
+#chartwerk body {
+  line-height: 1;
+}
+#chartwerk ol, #chartwerk ul {
+  list-style: none;
+}
+#chartwerk blockquote, #chartwerk q {
+  quotes: none;
+}
+#chartwerk blockquote:before, #chartwerk blockquote:after,
+#chartwerk q:before, #chartwerk q:after {
+  content: '';
+  content: none;
+}
+#chartwerk table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}

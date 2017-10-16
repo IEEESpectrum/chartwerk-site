@@ -1,0 +1,7 @@
+#preview-pane {
+    width: 640px;
+}
+
+#preview-pane .switch-toggle.preview-view-toggle {
+    width: 100%;
+}
