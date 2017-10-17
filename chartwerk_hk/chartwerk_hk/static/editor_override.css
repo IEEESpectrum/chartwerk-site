@@ -5,3 +5,13 @@
 #preview-pane .switch-toggle.preview-view-toggle {
     width: 100%;
 }
+
+#preview-pane p {
+	font-size: 18px;
+    line-height: 25px;
+    margin: 0 0 1em;
+}
+
+#code #advanced-users {
+	width: 100%;
+}
