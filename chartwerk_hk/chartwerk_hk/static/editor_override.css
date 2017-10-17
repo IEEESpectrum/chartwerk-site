@@ -17,21 +17,13 @@
 }
 
 #chartwerk {
-<<<<<<< HEAD
 	margin: 0 0 25px;
-=======
-	margin: 0 0 1em;
->>>>>>> 8315b33d923574e2ca0f20aa6c464a05ae1f5df9
 }
 
 #chartwerk.single {
     float: left;
-<<<<<<< HEAD
+
     padding: 0 20px 25px 0;
     overflow: hidden;
     box-sizing: initial;
-=======
-    margin: 0 20px 25px 0;
-    overflow: hidden;
->>>>>>> 8315b33d923574e2ca0f20aa6c464a05ae1f5df9
 }
