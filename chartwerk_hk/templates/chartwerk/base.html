@@ -1,6 +1,7 @@
 <!-- chartwerk/base.html -->
 {% extends "chartwerk/base.html" %}
+{% load static from staticfiles %}
 
 {% block head_block %}
-<link rel="stylesheet" href="/static/base_override.css" title="no title" charset="utf-8">
+<link rel="stylesheet" href="{% static 'base_override.css'%}" title="no title" charset="utf-8">
 {% endblock %}

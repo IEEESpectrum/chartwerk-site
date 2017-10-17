@@ -1,7 +1,9 @@
 <!-- chartwerk/editor.html -->
 {% extends "chartwerk/django-chartwerk-editor.html" %}
+{% load static from staticfiles %}
 
 {% block head_block %}
-<link rel="stylesheet" href="/static/base_override.css" title="no title" charset="utf-8">
-<link rel="stylesheet" href="/static/editor_override.css" title="no title" charset="utf-8">
+<link rel="stylesheet" href="{% static 'base_override.css'%}" title="no title" charset="utf-8">
+<link rel="stylesheet" href="{% static 'editor_override.css'%}" title="no title" charset="utf-8">
+<link rel="stylesheet" href="{% static 'spectrum_fonts.css'%}" title="no title" charset="utf-8">
 {% endblock %}
