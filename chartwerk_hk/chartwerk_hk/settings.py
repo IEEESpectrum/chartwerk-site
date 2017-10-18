@@ -167,6 +167,16 @@ CHARTWERK_COLOR_SCHEMES = {
             '#3FBEB6',
             '#C9C9C9',
         ],
+        'highlight': [
+            '#03A6E3',
+            '#7A7A7A',
+            '#898989',
+            '#989898',
+            '#A7A7A7',
+            '#B8B8B8',
+            '#C9C9C9',
+            '#DADADA',
+        ],
     },
     'sequential': {
         'red': [
