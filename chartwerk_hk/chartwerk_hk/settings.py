@@ -151,10 +151,15 @@ CHARTWERK_AWS_BUCKET = 'chartwerk.ieeespectrum.joshuarrr'
 CHARTWERK_AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
 CHARTWERK_AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
 
+CHARTWERK_GITHUB_ORG = 'IEEESpectrum'
+CHARTWERK_GITHUB_REPO = 'chartwerk_chart-templates'
+CHARTWERK_GITHUB_TOKEN = os.environ.get('GH_CHARTWERK_TOKEN')
+
 CHARTWERK_EMBED_TEMPLATE_CONTEXT = lambda chart: {
     'chart_path': 'https://s3.amazonaws.com/chartwerk.ieeespectrum.joshuarrr/charts/',
     'embed_script': 'https://s3.amazonaws.com/chartwerk.ieeespectrum.joshuarrr/main-embed.bundle.js',
 }
+
 CHARTWERK_COLOR_SCHEMES = {
     'categorical': {
         'default': [
