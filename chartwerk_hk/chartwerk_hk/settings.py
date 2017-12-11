@@ -92,7 +92,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'ieee_spectrum_chartwerk',
         'USER': 'josh',
-        'PASSWORD': 'Ch@0sPGCr3@3t3s!',
+        'PASSWORD': os.environ.get('CHARTWERK_DB_PW'),
         'HOST': 'localhost',
         'PORT': '',
     }
