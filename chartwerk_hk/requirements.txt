@@ -14,7 +14,7 @@ dj-database-url==0.4.2
 Django==2.0.12
 django-chartwerk==0.5.17
 django-uuslug==1.1.8
-djangorestframework==3.7.3
+djangorestframework==3.9.1
 docker-py==1.7.2
 dockerpty==0.4.1
 docopt==0.6.2
