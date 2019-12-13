@@ -11,7 +11,7 @@ chardet==3.0.4
 click==6.7
 colorama==0.3.7
 dj-database-url==0.4.2
-Django==2.0
+Django==2.0.12
 django-chartwerk==0.5.17
 django-uuslug==1.1.8
 djangorestframework==3.7.3
