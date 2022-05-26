@@ -32,7 +32,7 @@ pip-tools==1.9.0
 pipenv==6.2.2
 psycopg2==2.7.3.2
 PyGithub==1.35
-PyJWT==1.5.3
+PyJWT==2.4.0
 python-dateutil==2.6.1
 python-slugify==1.2.4
 pythonz-bd==1.11.4
